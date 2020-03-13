@@ -1,0 +1,47 @@
+% !TEX root = ../main.tex
+
+\chapter{内容XXX}
+
+\section{引言}
+
+每章的引言起到承接上一章引启下一章的作用。
+
+\ldots\ldots
+
+\section{对物理量符号进行注释的情况}
+
+为使得对公式中物理量符号注释的转行与破折号“———”后第一个字对齐，此处最好采用表格环境。此表格无任何线条，左对齐，且在破折号处对齐，一共有“式中”二字、物理量符号和注释三列，表格的总宽度可选为文本宽度，因此应该采用\verb|tabularx|环境。由\verb|tabularx|环境生成的对公式中物理量符号进行注释的公式如式(\ref{eq:1})所示。
+\begin{equation}\label{eq:1}
+\ddot{\bm{\rho}}-\frac{\mu}{R_{t}^{3}}\left(3\bm{R_{t}}\frac{\bm{R_{t}\rho}}{R_{t}^{2}}-\bm{\rho}\right)=\bm{a}
+\end{equation}
+\begin{tabularx}{\textwidth}{@{}l@{\quad}r@{———}X@{}}
+式中& $\bm{\rho}$ &追踪飞行器与目标飞行器之间的相对位置矢量；\\
+&  $\bm{\ddot{\rho}}$&追踪飞行器与目标飞行器之间的相对加速度；\\
+&  $\bm{a}$   &推力所产生的加速度；\\
+&  $\bm{R_t}$ & 目标飞行器在惯性坐标系中的位置矢量；\\
+&  $\omega_{t}$ & 目标飞行器的轨道角速度；\\
+\end{tabularx}\vspace{3.15bp}
+由此方法生成的注释内容应紧邻待注释公式并置于其下方，因此不能将代码放入\verb|table|浮动环境中。但此方法不能实现自动转页接排，可能会在当前页剩余空间不够时，全部移动到下一页而导致当前页出现很大空白。因此在需要转页处理时，还请您手动将需要转页的代码放入一个新的\verb|tabularx|环境中，将原来的一个\verb|tabularx|环境拆分为两个\verb|tabularx|环境。
+
+{\color{red}（矩阵、矢量用“粗、斜体”，如矢量$\bm{R}$；单变量用“斜体”（不加粗），如$x,y$；上下标：有变量含义的用斜体，如$x_i$；数字、单词首字母、单位等无变量含义的用正体，如$x_1$，矩阵转置$\bm{A}^{\text{T}}$（T 为转置Transpose 的首字母））}
+
+\section{子公式}
+
+子公式编号示例：如果需要对公式的子公式进行编号，则使用\lstinline{subeqnarray}环境：
+\begin{subeqnarray}
+  \label{eqw}
+  \slabel{eq0}
+  x & = & a \times b \\
+  \slabel{eq1}
+  & = & z + t\\
+  \slabel{eq2}
+  & = & z + t
+\end{subeqnarray}
+
+\equref{eqw}中，\lstinline{label}为整个公式的标签，\lstinline{slabel}为子公式的标签。
+
+\section{本章小结}
+
+总结本章的叙述内容。
+
+\lipsum[1]
