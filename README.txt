@@ -6,15 +6,15 @@
 # hitszthesis：哈尔滨工业大学（深圳）本硕博学位论文$\LaTeX$模板
 
 ![CTAN Version](https://img.shields.io/ctan/v/hitszthesis.svg)
-![Github Version](https://img.shields.io/github/release/YangLaTeX/hitszthesis.svg)
+![GitHub Version](https://img.shields.io/github/release/YangLaTeX/hitszthesis.svg)
 ![Repo Size](https://img.shields.io/github/repo-size/YangLaTeX/hitszthesis.svg)
 ![License](https://img.shields.io/ctan/l/hitszthesis.svg)
 
-[Github](https://github.com/YangLaTeX/hitszthesis) | [Download](https://github.com/YangLaTeX/hitszthesis/releases) | [Wiki](https://github.com/YangLaTeX/hitszthesis/wiki) | [CTAN](https://www.ctan.org/pkg/hitszthesis)
+[GitHub](https://github.com/YangLaTeX/hitszthesis) | [Gitee](https://gitee.com/jingxuanyang/hitszthesis) | [GitLab](https://gitlab.com/jingxuanyang/hitszthesis) | [Wiki](https://github.com/YangLaTeX/hitszthesis/wiki) | [CTAN](https://www.ctan.org/pkg/hitszthesis)
 
 # Introduction to hitszthesis
 
-HITSZThesis is a **dissertation** LaTeX template for **Harbin Institute of Technology, ShenZhen** (HITSZ), including bachelor, master and doctor dissertations. Current version is 3.0.4, updated on 2020/03/13. Note that 3.x version is not compatible with 2.x version. Please join QQ group: 1039392552 to report issues.
+HITSZThesis is a **dissertation** LaTeX template for **Harbin Institute of Technology, ShenZhen** (HITSZ), including bachelor, master and doctor dissertations. Current version is 3.1, updated on 2020/05/25. Note that 3.x version is not compatible with 2.x version. Please join QQ group: 1039392552 to report issues.
 
 ```latex
   |- front
@@ -61,7 +61,7 @@ HITSZThesis is a **dissertation** LaTeX template for **Harbin Institute of Techn
 
 # hitszthesis 模板简介
 
-hitszthesis 是哈尔滨工业大学（深圳）本硕博学位论文模板，当前版本为3.0.4，更新于2020年3月13日。注意3.x版本不兼容2.x版本。请加入QQ群：1039392552反馈模板使用过程中遇到的问题。
+hitszthesis 是哈尔滨工业大学（深圳）本硕博学位论文模板，当前版本为3.1，更新于2020年5月25日。注意3.x版本不兼容2.x版本。请加入QQ群：1039392552反馈模板使用过程中遇到的问题。
 
 # Documentation
 
@@ -95,11 +95,15 @@ Typesetting examples:
 
 * Published version: [CTAN](https://www.ctan.org/pkg/hitszthesis)
 * Developer version: [GitHub](https://github.com/YangLaTeX/hitszthesis)
+* Developer version: [Gitee](https://gitee.com/jingxuanyang/hitszthesis)
+* Developer version: [GitLab](https://gitlab.com/jingxuanyang/hitszthesis)
 
 # 下载
 
 * 发布版本：[CTAN](https://www.ctan.org/pkg/hitszthesis)
 * 开发版本：[GitHub](https://github.com/YangLaTeX/hitszthesis)
+* 开发版本：[Gitee](https://gitee.com/jingxuanyang/hitszthesis)
+* 开发版本：[GitLab](https://gitlab.com/jingxuanyang/hitszthesis)
 
 # Updates（更新）
 
